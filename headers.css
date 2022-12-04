@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+:root {
+  --header-height: 53px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;  
+    word-break: break-word;
+}
+header {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 250;
+  height: var(--header-height);
+}
+.header {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+}
+  
+.wes {
+  font-family: 'Comforter Brush', cursive;
+  padding-left: 40px;
+  font-size:38px;
+  text-decoration: none;
+  color: black;
+}
+
+.img{
+ width:100%;
+}
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Keywords" content="Мерседес, салон, Прокат, авто, автомобиль, купить автомобиль">
+  <title>Mersedes Benz</title>
+  <!-- /////////////////CSS/////////////////////// -->
+  <link rel="stylesheet" href="headers.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="footer.css">
+  <!-- /////////////////Favicon/////////////////// -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#383d3f">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+<body><!-- якоря!!!!!!!!!!! -->
+<header>
+  <div class="header">
+    <div class="logo"> <a class="wes" href=""> Mersedes</a></div> 
+  </div> 
+</header>
+<img class="img" src="img.img/664643.svg" alt="Image"/>
+<!---------------------------------------------------------------->
+<main>
+    <div class="flex">
+     <a href="#nas"> <button class="btn" >О нас</button></a> 
+      <a href="#procat "><button class="btn">Прокат</button></a>
+      <a href="#contactc"><button class="btn">Контакты</button></a> 
+  </div>
+<!-- ---------------- -->
+<div class="carousel" duration="5000">
+ <ul tabindex="0">
+   <li id="c1_slide1" class="selected"><div><div></div><br/>Mercedes-Benz SLS 63 AMG<a href="https://yandex.by/search/?text=Mercedes-Benz+SLS+63+AMG&lr=157&clid=2411726">Подробнее</a></div></li>  
+   <li id="c1_slide2"><div><div></div>Mercedes 300sls,Old Classic <br /><a href="https://yandex.by/search/?text=Mercedes+300sls%2COld+Classic&lr=157&clid=2411726">Подробнее</a></div></li>  
+   <li id="c1_slide3"><div><div></div>Mercedes-Benz G65 AMG<br /><a href="https://yandex.by/search/?text=Mercedes-Benz+G65+AMG&clid=2411726&lr=157">Подробнее</a></div></li>  
+   <li id="c1_slide4"><div><div></div>Mercedes-Benz Silver Arrow <br /><a href="https://yandex.by/search/?text=2011+Mercedes-Benz+Silver+Arrow&lr=157&clid=2411726">Подробнее</a></div></li>  
+ </ul>
+ <ol>
+   <li class="selected"><a href="#c1_slide1"></a></li>
+   <li><a href="#c1_slide2"></a></li>
+   <li><a href="#c1_slide3"></a></li>
+   <li><a href="#c1_slide4"></a></li>
+ </ol>
+ <div class="prev">&lsaquo;</div>
+ <div class="next">&rsaquo;</div>
+</div> 
+  <p id="nas"></p>
+  <h2>История марки Mercedes</h2>
+  <p>TС некоторыми условностями можно сказать, что история бренда «Мерседес» отсчитывается от 1886 года, когда немецкий инженер Карл Бенц запатентовал авто с бензиновым мотором. На практике его детище мало напоминало машину в современном понимании. Скорее это был трехколесный велосипед, на который Бенц установил четырехтактный двигатель. Супруга Бенца смогла объехать город на таком транспорте. Почти одновременно с Бенцом представил свое изобретение Готлиб Даймлер, собравший одиночный цилиндр четырехтактного ДВС в тандеме с Вильгельмом Майбахом.</p>
+  
+  <h2>История названия</h2>
+  <p>В Германии первые авто не вызвали особого восторга. Немцы не понимали функционала изобретения. А вот французам новинка приглянулась. Авто стало символом роскоши и свободы. Mercedes 35 PS Получилось, что родиной марки «Мерседес» стала именно Франция, а поспособствовал этому некто Эмиль Еллинек. Это был экстравагантный аристократ с духом авантюризма, который буквально влюбился в фирму Даймлера и Майбаха. Приличное состояние позволило ему занять место главы представительства компании во Франции. С подачи Еллинека состоялась презентация авто, получившего наименование Mercedes 35 PS. Дело в том, что у Эмиля было двое сыновей и дочь по имени Мерседес. В дочери Еллинек души не чаял и ее именем называл все, что любил.</p>
+     
+<!-- ---------------------------------------------------------------- -->
+<div class="container2">      
+  <div class="form-wrap">
+    <div class="profile">
+      <h1>Заполните форму,для проката автомобиля</h1>
+      <p>Заявление</p>
+    </div>
+    <form method="post" action="form.php">
+     <div>
+        <label for="name">Ф.И.О</label>
+        <input type="text" name="name" required>
+      </div>
+      <div class="radio">
+        <span id="procat">Пол</span>
+      <label>
+        <input type="radio" name="sex" value="мужской">мужской
+        <div class="radio-control male"></div>
+      </label>
+      <label>
+        <input type="radio" name="sex" value="женский">женский
+        <div class="radio-control female"></div>
+      </label>
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" required>
+    </div>
+    <div>
+      <label for="country">Выберите модель</label>
+      <select name="country">
+        <option>Марка автомобиля</option>
+        <option value="Mercedes 300sls">Mercedes 300sls</option> 
+        <option value="Mercedes-Benz SLS 63 AMG">Mercedes-Benz SLS 63 AMG</option>
+        <option value="Mercedes-Benz Silver Arrow">Mercedes-Benz Silver Arrow</option> 
+        <option value="Консультация">Консультация</option> 
+      </select>
+    </div> 
+    <button type="submit">Отправить запрос</button> 
+  </form> 
+  </div>
+</div>
+<script src="main.js"></script>
+<!-- ///////////footer///// -->
+<footer>
+<section class="spacer">
+</section>
+
+<section class="footer">
+  <div class="footer-container">
+      <div class="footer-logo">
+          <div > <img class="footer-icon" src="img.img/logo mersa.svg" alt=""></div>
+      </div>
+
+      <div class="links">
+          <a href="" class="footer-item"><p> Пн. - Пт.: 09:00 - 20:00 </p><p>Сб. - Вс.: 10:00 - 16:00</p></a>
+          <a href="" class="footer-item">г. Минск, ул. Тимирязева, 70</a>
+          <a href="tel:+375 29 603 99 99" class="footer-item" id="contactc">+375 29 603 99 99</a>
+      </div>
+  </div>
+</section>
+</footer>
