@@ -271,3 +271,11 @@ select::-ms-expand {
 .text{
 	float: right
 }
+.cnop{
+  padding: 10px;
+  border: none;
+}
+.cnop:active{
+  vertical-align: middle;
+  color: hsla(0, 2%, 70%, 0.81);
+  }      
